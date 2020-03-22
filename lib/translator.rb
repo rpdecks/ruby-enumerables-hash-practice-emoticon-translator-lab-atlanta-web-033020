@@ -18,7 +18,8 @@ end
 
 def get_japanese_emoticon(file, emoticon)
   hash = load_library(file)
-  hash[:get_emoticon][emoticon]
+  if !hash[:get_emoticon][emoticon]
+    "apology"
 end
 
 def get_english_meaning
