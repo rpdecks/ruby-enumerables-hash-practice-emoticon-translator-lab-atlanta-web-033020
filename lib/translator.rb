@@ -12,7 +12,7 @@ def load_library(file)
     japanese_icons_array.each do |key|
       binding.pry
       key.each do |index|
-        my_hash[:get_meaning][icons] = index
+        my_hash[:get_meaning][key] = index
       end
     end
   end
