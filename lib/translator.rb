@@ -10,7 +10,7 @@ def load_library(file)
   }
   emoticons.each do |eng_meaning|
     eng_meaning.each do |jap_icons_array, index|
-      my_hash[:get_meaning][index] = index.to_s
+      my_hash[:get_meaning][index] = jap_icons_array[index]
       binding.pry
     end
   end
