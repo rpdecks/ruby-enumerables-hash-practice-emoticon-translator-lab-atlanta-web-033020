@@ -13,7 +13,7 @@ def load_library(file)
     eng_meaning.each do |jap_icons_array, index|
       my_hash[:get_meaning][index] = {}
         my_hash[:get_meaning][index].each do |meaning|
-          my_hash[:get_meaning][index] = eng_meaning.key_to_s
+          my_hash[:get_meaning][index] = eng_meaning.to_s
         end
     end
   end
