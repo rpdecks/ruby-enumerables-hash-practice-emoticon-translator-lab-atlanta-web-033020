@@ -8,7 +8,7 @@ def load_library(file)
     :get_meaning => {},
     :get_emoticon => {}
   }
-  emoticons.each do |eng_meaning, japanese_icons_array|
+  emoticons.each do |eng_meaning, icons_array|
     binding.pry
   end
   my_hash
