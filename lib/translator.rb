@@ -14,7 +14,6 @@ def load_library(file)
       my_hash[:get_meaning][index] = {}
         #my_hash[:get_meaning][index].each do |meaning|
           #my_hash[:get_meaning][index] = eng_meaning.to_s
-        end
     end
   end
   my_hash
