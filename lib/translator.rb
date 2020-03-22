@@ -11,7 +11,7 @@ def load_library(file)
   emoticons.each do |meaning_hash|
     meaning_hash.each do |key, jap_icons_array|
       binding.pry
-      key.each do |icons, index|
+      jap_icons_array.each do |icons, index|
         my_hash[:get_meaning][icons] = index
       end
     end
