@@ -10,6 +10,7 @@ def load_library(file)
   }
   emoticons.each do |eng_meaning, icons_array|
     binding.pry
+    my_hash[:get_meaning][] = 
   end
   my_hash
 end
