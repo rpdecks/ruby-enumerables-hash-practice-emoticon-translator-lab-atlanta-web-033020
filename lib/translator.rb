@@ -9,9 +9,9 @@ def load_library(file)
     :get_emoticon => {}
   }
   emoticons.each do |meaning_hash|
-    meaning_hash.each do |key, jap_icons_array|
+    meaning_hash.each do |key|
       binding.pry
-      jap_icons_array.each do |icons, index|
+      key.each do |icons, index|
         my_hash[:get_meaning][icons] = index
       end
     end
